@@ -1,0 +1,32 @@
+a = 3;
+b = 10;
+c = 4;
+number = a*(b+c*(a+c));
+print("Hello, World!");
+print(number);
+while(a < b) {
+    a = a + 1;
+}
+c = a + b;
+print(c);
+
+
+myList = list;
+print("Enter element: ");
+input(value);
+myList.add(value);
+
+print("Is list empty:");
+print(myList.isEmpty());
+
+myList.add(4);
+myList.add(15);
+myList.add(3);
+myList.add(25);
+
+print("List: ");
+print(myList);
+print(myList.get(3));
+
+print("List size: ");
+print(myList.size())

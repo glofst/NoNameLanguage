@@ -1,0 +1,18 @@
+print("Fibonacci example");
+print("Enter n: ");
+input(n);
+
+fib = list;
+fib.add(0);
+fib.add(1);
+
+iter = 2;
+while(iter < n) {
+    first = iter-1;
+    second = iter-2;
+    tmp = fib.get(first) + fib.get(second);
+    fib.add(tmp);
+    iter = iter + 1;
+}
+
+print(fib);
